@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'api',
     'api.category',
     'api.product',
+    'api.user',
+    'api.order',
 
 ]
 
@@ -150,3 +152,5 @@ REST_FRAMEWORK = {
     ]
     
 }
+
+AUTH_USER_MODEL = "user.CustomUser"
